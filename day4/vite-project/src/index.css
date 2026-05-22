@@ -1,0 +1,23 @@
+@import "tailwindcss";
+.btnDiv{
+    @apply flex justify-center items-center gap-5;
+}
+.btnRed{
+    @apply px-5 py-2 border rounded-2xl bg-red-500 text-white transition;
+    &&:hover{
+        @apply bg-red-700
+    }
+}
+.btnGreen{
+    @apply px-5 py-2 border rounded-2xl bg-green-500 text-white transition;
+    &&:hover {
+            @apply bg-green-700
+        }
+}
+
+.btnYellow{
+    @apply px-5 py-2 border rounded-2xl bg-yellow-500 text-white transition;
+    &&:hover{
+        @apply bg-yellow-700
+    }
+}
